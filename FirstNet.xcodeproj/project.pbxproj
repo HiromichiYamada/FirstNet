@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D47C8619421FD200924AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D47C8519421FD200924AB3 /* Foundation.framework */; };
+		25D47C8819421FD200924AB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D47C8719421FD200924AB3 /* CoreGraphics.framework */; };
+		25D47C8A19421FD200924AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D47C8919421FD200924AB3 /* UIKit.framework */; };
+		25D47C9019421FD200924AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25D47C8E19421FD200924AB3 /* InfoPlist.strings */; };
+		25D47C9219421FD200924AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D47C9119421FD200924AB3 /* main.m */; };
+		25D47C9619421FD200924AB3 /* FNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D47C9519421FD200924AB3 /* FNAppDelegate.m */; };
+		25D47C9919421FD200924AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D47C9719421FD200924AB3 /* Main.storyboard */; };
+		25D47C9C19421FD200924AB3 /* FNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D47C9B19421FD200924AB3 /* FNViewController.m */; };
+		25D47C9E19421FD200924AB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D47C9D19421FD200924AB3 /* Images.xcassets */; };
+		25D47CA519421FD200924AB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D47CA419421FD200924AB3 /* XCTest.framework */; };
+		25D47CA619421FD200924AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D47C8519421FD200924AB3 /* Foundation.framework */; };
+		25D47CA719421FD200924AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D47C8919421FD200924AB3 /* UIKit.framework */; };
+		25D47CAF19421FD200924AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25D47CAD19421FD200924AB3 /* InfoPlist.strings */; };
+		25D47CB119421FD300924AB3 /* FirstNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D47CB019421FD300924AB3 /* FirstNetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25D47CA819421FD200924AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D47C7A19421FD100924AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D47C8119421FD100924AB3;
+			remoteInfo = FirstNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25D47C8219421FD200924AB3 /* FirstNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D47C8519421FD200924AB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25D47C8719421FD200924AB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25D47C8919421FD200924AB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25D47C8D19421FD200924AB3 /* FirstNet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstNet-Info.plist"; sourceTree = "<group>"; };
+		25D47C8F19421FD200924AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25D47C9119421FD200924AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25D47C9319421FD200924AB3 /* FirstNet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstNet-Prefix.pch"; sourceTree = "<group>"; };
+		25D47C9419421FD200924AB3 /* FNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNAppDelegate.h; sourceTree = "<group>"; };
+		25D47C9519421FD200924AB3 /* FNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNAppDelegate.m; sourceTree = "<group>"; };
+		25D47C9819421FD200924AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25D47C9A19421FD200924AB3 /* FNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNViewController.h; sourceTree = "<group>"; };
+		25D47C9B19421FD200924AB3 /* FNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNViewController.m; sourceTree = "<group>"; };
+		25D47C9D19421FD200924AB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25D47CA319421FD200924AB3 /* FirstNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D47CA419421FD200924AB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25D47CAC19421FD200924AB3 /* FirstNetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstNetTests-Info.plist"; sourceTree = "<group>"; };
+		25D47CAE19421FD200924AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25D47CB019421FD300924AB3 /* FirstNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstNetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D47C7F19421FD100924AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D47C8819421FD200924AB3 /* CoreGraphics.framework in Frameworks */,
+				25D47C8A19421FD200924AB3 /* UIKit.framework in Frameworks */,
+				25D47C8619421FD200924AB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D47CA019421FD200924AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D47CA519421FD200924AB3 /* XCTest.framework in Frameworks */,
+				25D47CA719421FD200924AB3 /* UIKit.framework in Frameworks */,
+				25D47CA619421FD200924AB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D47C7919421FD100924AB3 = {
+			isa = PBXGroup;
+			children = (
+				25D47C8B19421FD200924AB3 /* FirstNet */,
+				25D47CAA19421FD200924AB3 /* FirstNetTests */,
+				25D47C8419421FD200924AB3 /* Frameworks */,
+				25D47C8319421FD200924AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25D47C8319421FD200924AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D47C8219421FD200924AB3 /* FirstNet.app */,
+				25D47CA319421FD200924AB3 /* FirstNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D47C8419421FD200924AB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D47C8519421FD200924AB3 /* Foundation.framework */,
+				25D47C8719421FD200924AB3 /* CoreGraphics.framework */,
+				25D47C8919421FD200924AB3 /* UIKit.framework */,
+				25D47CA419421FD200924AB3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D47C8B19421FD200924AB3 /* FirstNet */ = {
+			isa = PBXGroup;
+			children = (
+				25D47C9419421FD200924AB3 /* FNAppDelegate.h */,
+				25D47C9519421FD200924AB3 /* FNAppDelegate.m */,
+				25D47C9719421FD200924AB3 /* Main.storyboard */,
+				25D47C9A19421FD200924AB3 /* FNViewController.h */,
+				25D47C9B19421FD200924AB3 /* FNViewController.m */,
+				25D47C9D19421FD200924AB3 /* Images.xcassets */,
+				25D47C8C19421FD200924AB3 /* Supporting Files */,
+			);
+			path = FirstNet;
+			sourceTree = "<group>";
+		};
+		25D47C8C19421FD200924AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D47C8D19421FD200924AB3 /* FirstNet-Info.plist */,
+				25D47C8E19421FD200924AB3 /* InfoPlist.strings */,
+				25D47C9119421FD200924AB3 /* main.m */,
+				25D47C9319421FD200924AB3 /* FirstNet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25D47CAA19421FD200924AB3 /* FirstNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				25D47CB019421FD300924AB3 /* FirstNetTests.m */,
+				25D47CAB19421FD200924AB3 /* Supporting Files */,
+			);
+			path = FirstNetTests;
+			sourceTree = "<group>";
+		};
+		25D47CAB19421FD200924AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D47CAC19421FD200924AB3 /* FirstNetTests-Info.plist */,
+				25D47CAD19421FD200924AB3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D47C8119421FD100924AB3 /* FirstNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D47CB419421FD300924AB3 /* Build configuration list for PBXNativeTarget "FirstNet" */;
+			buildPhases = (
+				25D47C7E19421FD100924AB3 /* Sources */,
+				25D47C7F19421FD100924AB3 /* Frameworks */,
+				25D47C8019421FD100924AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstNet;
+			productName = FirstNet;
+			productReference = 25D47C8219421FD200924AB3 /* FirstNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25D47CA219421FD200924AB3 /* FirstNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D47CB719421FD300924AB3 /* Build configuration list for PBXNativeTarget "FirstNetTests" */;
+			buildPhases = (
+				25D47C9F19421FD200924AB3 /* Sources */,
+				25D47CA019421FD200924AB3 /* Frameworks */,
+				25D47CA119421FD200924AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D47CA919421FD200924AB3 /* PBXTargetDependency */,
+			);
+			name = FirstNetTests;
+			productName = FirstNetTests;
+			productReference = 25D47CA319421FD200924AB3 /* FirstNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D47C7A19421FD100924AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Torques Inc.";
+				TargetAttributes = {
+					25D47CA219421FD200924AB3 = {
+						TestTargetID = 25D47C8119421FD100924AB3;
+					};
+				};
+			};
+			buildConfigurationList = 25D47C7D19421FD100924AB3 /* Build configuration list for PBXProject "FirstNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25D47C7919421FD100924AB3;
+			productRefGroup = 25D47C8319421FD200924AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D47C8119421FD100924AB3 /* FirstNet */,
+				25D47CA219421FD200924AB3 /* FirstNetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25D47C8019421FD100924AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D47C9E19421FD200924AB3 /* Images.xcassets in Resources */,
+				25D47C9019421FD200924AB3 /* InfoPlist.strings in Resources */,
+				25D47C9919421FD200924AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D47CA119421FD200924AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D47CAF19421FD200924AB3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D47C7E19421FD100924AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D47C9619421FD200924AB3 /* FNAppDelegate.m in Sources */,
+				25D47C9219421FD200924AB3 /* main.m in Sources */,
+				25D47C9C19421FD200924AB3 /* FNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D47C9F19421FD200924AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D47CB119421FD300924AB3 /* FirstNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D47CA919421FD200924AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D47C8119421FD100924AB3 /* FirstNet */;
+			targetProxy = 25D47CA819421FD200924AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25D47C8E19421FD200924AB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D47C8F19421FD200924AB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25D47C9719421FD200924AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D47C9819421FD200924AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25D47CAD19421FD200924AB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D47CAE19421FD200924AB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25D47CB219421FD300924AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25D47CB319421FD300924AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25D47CB519421FD300924AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstNet/FirstNet-Prefix.pch";
+				INFOPLIST_FILE = "FirstNet/FirstNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25D47CB619421FD300924AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstNet/FirstNet-Prefix.pch";
+				INFOPLIST_FILE = "FirstNet/FirstNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25D47CB819421FD300924AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstNet.app/FirstNet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstNet/FirstNet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FirstNetTests/FirstNetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25D47CB919421FD300924AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstNet.app/FirstNet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstNet/FirstNet-Prefix.pch";
+				INFOPLIST_FILE = "FirstNetTests/FirstNetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D47C7D19421FD100924AB3 /* Build configuration list for PBXProject "FirstNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D47CB219421FD300924AB3 /* Debug */,
+				25D47CB319421FD300924AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D47CB419421FD300924AB3 /* Build configuration list for PBXNativeTarget "FirstNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D47CB519421FD300924AB3 /* Debug */,
+				25D47CB619421FD300924AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25D47CB719421FD300924AB3 /* Build configuration list for PBXNativeTarget "FirstNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D47CB819421FD300924AB3 /* Debug */,
+				25D47CB919421FD300924AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25D47C7A19421FD100924AB3 /* Project object */;
+}
